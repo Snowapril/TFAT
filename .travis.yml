@@ -16,7 +16,7 @@ matrix:
         sonarcloud:
           organization: "snowapril-github"
           token:
-            secure: SONAR_TOKEN
+            secure: "MIGJAoGBAKY1mJtfyxF51Z8XSE4q/kLixEUegc4UGyP0lTH/URfJ3Yg7HzNwOXNg\nxWYtBWg8foI6H71J25iDGFYFA7ihY1GwDDlfd/RmYzBHD3nrVRdzYvvqKZgAfS9J\nvQnqfMVBRNYlP6osvgf394BvOTCrXh7WEQX6zLD0PO1wKgIEHhBzAgMBAAE="
       dist: xenial
       sudo: required
       compiler: gcc
