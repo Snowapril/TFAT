@@ -1,0 +1,75 @@
+language: cpp
+
+matrix:
+  include:
+    - name: Test Ubuntu 16.04 + gcc-7 + codecov + (sonarcloud)
+      os: linux
+      addons:
+        apt:
+          sources:
+            - deadsnakes
+            - ubuntu-toolchain-r-test
+          packages:
+            - g++-7
+            - python3.7-dev
+            - python3.7-venv
+        sonarcloud:
+          organization: "snowapril-github"
+          token:
+            secure: SONAR_TOKEN
+      dist: xenial
+      sudo: required
+      compiler: gcc
+      env:
+        - BUILD_TYPE=Debug
+      script:
+        - |
+          if [[ -n "${TRAVIS_PULL_REQUEST_SLUG}" && "${TRAVIS_PULL_REQUEST_SLUG}" != "${TRAVIS_REPO_SLUG}" ]]; then
+            echo "The pull request from ${TRAVIS_PULL_REQUEST_SLUG} is an EXTERNAL pull request. Skip sonar analysis."
+            sh Scripts/travis_build_codecov.sh
+          else
+            sh Scripts/travis_build_codecov_sonar.sh
+          fi
+    - name: Test Docker based on Ubuntu 18.04 LTS + gcc
+      os: linux
+      dist: trusty
+      sudo: required
+      services: docker
+      script:
+        - sh Scripts/travis_build_docker.sh
+    - name: Test Docker based on Ubuntu 19.04 LTS + gcc
+      os: linux
+      dist: trusty
+      sudo: required
+      services: docker
+      script:
+        - sh Scripts/travis_build_docker.sh Scripts/Dockerfile.disco disco
+    - name: Test Docker based on Ubuntu 19.04 LTS + gcc-latest
+      os: linux
+      dist: trusty
+      sudo: required
+      services: docker
+      script:
+        - sh Scripts/travis_build_docker.sh Scripts/Dockerfile.disco.gcc-latest disco-gcc-latest
+    - name: Test Docker based on Ubuntu 19.04 LTS + clang-latest
+      os: linux
+      dist: trusty
+      sudo: required
+      services: docker
+      script:
+        - sh Scripts/travis_build_docker.sh Scripts/Dockerfile.disco.clang-latest disco-clang-latest
+    - name: Test Docker based on Ubuntu 20.04 LTS + gcc
+      os: linux
+      dist: trusty
+      sudo: required
+      services: docker
+      script:
+        - sh Scripts/travis_build_docker.sh Scripts/Dockerfile.focal focal
+    - name: Test OS X 10.14 + Xcode 10.2 + clang
+      os: osx
+      osx_image: xcode10.2
+      compiler: clang
+      script:
+        - sh Scripts/travis_build.sh
+  before_install:
+    - eval "${MATRIX_EVAL}"
