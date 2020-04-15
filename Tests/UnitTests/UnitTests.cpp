@@ -6,10 +6,13 @@
 
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
-
 #undef NEAR
+
+#include <TFAT/Piece/Piece.hpp>
+using namespace TFAT;
 
 TEST_CASE("Simple test")
 {
-    
+    Piece piece;
+    //!CHECK();
 }
