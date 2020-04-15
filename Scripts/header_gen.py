@@ -9,14 +9,13 @@ import utils
 
 dir_name = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
-
 def main():
-    include_dir = os.path.join(dir_name, "../Includes/tfat")
+    include_dir = os.path.join(dir_name, "../Includes/TFAT")
 
     file_names = utils.get_all_files(include_dir, ["*.hpp"])
     file_names.sort()
 
-    header = os.path.join(dir_name, "../Includes/tfat/tfat.hpp")
+    header = os.path.join(dir_name, "../Includes/TFAT/TFAT.hpp")
     header_tmp = header + ".tmp"
     with open(header_tmp, "w") as header_file:
         header_file.write("""// Copyright (c) 2020 Jihong Shin
@@ -28,7 +27,7 @@ def main():
         header_file.write("#ifndef TFAT_HPP\n")
         header_file.write("#define TFAT_HPP\n\n")
         for filename in file_names:
-            line = "#include <tfat/%s>\n" % filename
+            line = "#include <TFAT/%s>\n" % filename
             header_file.write(line)
         header_file.write("\n#endif  // TFAT_HPP\n")
 
