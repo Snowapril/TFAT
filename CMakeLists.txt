@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.8.2 FATAL_ERROR)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake")
 
 # Declare project
-project(tfat)
+project(TFAT)
 
 # Set output directories
 set(DEFAULT_CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
@@ -34,6 +34,7 @@ endif()
 set(CMAKE_MACOSX_RPATH ON)
 
 # Project modules
+add_subdirectory(Sources/TFAT)
 add_subdirectory(Libraries/doctest)
 add_subdirectory(Tests/UnitTests)
 
