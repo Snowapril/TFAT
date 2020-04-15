@@ -2,7 +2,10 @@
 set(target UnitTests)
 
 # Includes
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Includes
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
 
 # Sources
 file(GLOB sources
@@ -39,4 +42,5 @@ target_compile_options(${target}
 target_link_libraries(${target}
     PRIVATE
     ${DEFAULT_LINKER_OPTIONS}
-    doctest) 
+    doctest
+    TFAT) 
