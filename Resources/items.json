@@ -1,0 +1,823 @@
+{
+    "data": [
+        {
+            "bonus": [
+                "15 Attack damage."
+            ],
+            "id": 1,
+            "into": [
+                "Blade of the Ruined King",
+                "Bloodthirster",
+                "Giant Slayer",
+                "Guardian Angel",
+                "Hextech Gunblade",
+                "Infinity Edge",
+                "Deathblade",
+                "Spear of Shojin",
+                "Zeke's Herald"
+            ],
+            "name": "B.F. Sword",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "25 Armor."
+            ],
+            "id": 5,
+            "into": [
+                "Bramble Vest",
+                "Frozen Heart",
+                "Guardian Angel",
+                "Locket of the Iron Solari",
+                "Rebel Medal",
+                "Red Buff",
+                "Shroud of Stillness",
+                "Sword Breaker",
+                "Titan's Resolve"
+            ],
+            "name": "Chain Vest",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "200 Health."
+            ],
+            "id": 7,
+            "into": [
+                "Morellonomicon",
+                "Protector's Chestguard",
+                "Red Buff",
+                "Redemption",
+                "Trap Claw",
+                "Warmog's Armor",
+                "Zeke's Herald",
+                "Zephyr",
+                "Zz'Rot Portal"
+            ],
+            "name": "Giant's Belt",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "20 Spell power."
+            ],
+            "id": 3,
+            "into": [
+                "Demolitionist's Charge",
+                "Guinsoo's Rageblade",
+                "Hextech Gunblade",
+                "Ionic Spark",
+                "Jeweled Gauntlet",
+                "Locket of the Iron Solari",
+                "Luden's Echo",
+                "Morellonomicon",
+                "Rabadon's Deathcap"
+            ],
+            "name": "Needlessly Large Rod",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "25 Magic resist."
+            ],
+            "id": 6,
+            "into": [
+                "Bloodthirster",
+                "Celestial Orb",
+                "Chalice of Favor",
+                "Dragon's Claw",
+                "Ionic Spark",
+                "Quicksilver",
+                "Runaan's Hurricane",
+                "Sword Breaker",
+                "Zephyr"
+            ],
+            "name": "Negatron Cloak",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "20% Attack speed."
+            ],
+            "id": 2,
+            "into": [
+                "Giant Slayer",
+                "Guinsoo's Rageblade",
+                "Infiltrator's Talons",
+                "Last Whisper",
+                "Rapid Firecannon",
+                "Runaan's Hurricane",
+                "Statikk Shiv",
+                "Titan's Resolve",
+                "Zz'Rot Portal"
+            ],
+            "name": "Recurve Bow",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "10% Crit and +10% Dodge chance."
+            ],
+            "id": 9,
+            "into": [
+                "Dark Star's Heart",
+                "Hand of Justice",
+                "Infinity Edge",
+                "Jeweled Gauntlet",
+                "Last Whisper",
+                "Quicksilver",
+                "Shroud of Stillness",
+                "Thief's Gloves",
+                "Trap Claw"
+            ],
+            "name": "Sparring Gloves",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "It must do something..."
+            ],
+            "id": 8,
+            "into": [
+                "Blade of the Ruined King",
+                "Force of Nature",
+                "Star Guardian's Charm",
+                "Dark Star's Heart",
+                "Infiltrator's Talons",
+                "Protector's Chestguard",
+                "Demolitionist's Charge",
+                "Celestial Orb",
+                "Rebel Medal"
+            ],
+            "name": "Spatula",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "20 Mana."
+            ],
+            "id": 4,
+            "into": [
+                "Chalice of Favor",
+                "Frozen Heart",
+                "Hand of Justice",
+                "Luden's Echo",
+                "Redemption",
+                "Seraph's Embrace",
+                "Spear of Shojin",
+                "Statikk Shiv",
+                "Star Guardian's Charm"
+            ],
+            "name": "Tear of the Goddess",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Wearer is also a Blademaster."
+            ],
+            "combine": [
+                "Spatula",
+                "B.F. Sword"
+            ],
+            "id": 18,
+            "name": "Blade of the Ruined King",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Attacks heal for 50% of damage."
+            ],
+            "combine": [
+                "B.F. Sword",
+                "Negatron Cloak"
+            ],
+            "id": 16,
+            "name": "Bloodthirster",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 140/140/200 magic damage to all nearby enemies (once every 2.5 second maximum). Scales with wearer\u2019s Star Level."
+            ],
+            "combine": [
+                "Chain Vest",
+                "Chain Vest"
+            ],
+            "id": 55,
+            "name": "Bramble Vest",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "The wearer gains the Celestial trait."
+            ],
+            "combine": [
+                "Spatula",
+                "Negatron Cloak"
+            ],
+            "id": 68,
+            "name": "Celestial Orb",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Whenever the holder casts a spell, gives all nearby allies 20 mana."
+            ],
+            "combine": [
+                "Negatron Cloak",
+                "Tear of the Goddess"
+            ],
+            "id": 46,
+            "name": "Chalice of Favor",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Wearer is also a Dark Star."
+            ],
+            "combine": [
+                "Spatula",
+                "Sparring Gloves"
+            ],
+            "id": 89,
+            "name": "Dark Star's Heart",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Whenever the wearer kills or participates in killing an enemy, gain +15 Attack Damage for the remainder of combat. Starts with 1 stack. This effect can stack any number of times."
+            ],
+            "combine": [
+                "B.F. Sword",
+                "B.F. Sword"
+            ],
+            "id": 11,
+            "name": "Deathblade",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Wearer is also a Demolitionist"
+            ],
+            "combine": [
+                "Spatula",
+                "Needlessly Large Rod"
+            ],
+            "id": 38,
+            "name": "Demolitionist's Charge",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Gain 50% resistance to magic damage."
+            ],
+            "combine": [
+                "Negatron Cloak",
+                "Negatron Cloak"
+            ],
+            "id": 66,
+            "name": "Dragon's Claw",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Gain +1 team size."
+            ],
+            "combine": [
+                "Spatula",
+                "Spatula"
+            ],
+            "id": 88,
+            "name": "Force of Nature",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Nearby enemies' attack speed is slowed by 40%. (Stacking increases the radius of this effect, not the amount of the slow)"
+            ],
+            "combine": [
+                "Chain Vest",
+                "Tear of the Goddess"
+            ],
+            "id": 45,
+            "name": "Frozen Heart",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Attacks deal an additional 9% enemy max health as true damage."
+            ],
+            "combine": [
+                "B.F. Sword",
+                "Recurve Bow"
+            ],
+            "id": 12,
+            "name": "Giant Slayer",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Wearer revives with 500 Health after a 2 sec delay."
+            ],
+            "combine": [
+                "B.F. Sword",
+                "Chain Vest"
+            ],
+            "id": 15,
+            "name": "Guardian Angel",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Attacks grant 5% Attack Speed. Stacks infinitely."
+            ],
+            "combine": [
+                "Needlessly Large Rod",
+                "Recurve Bow"
+            ],
+            "id": 23,
+            "name": "Guinsoo's Rageblade",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "On round start, either gain 50% more damage or 50 life on hit."
+            ],
+            "combine": [
+                "Tear of the Goddess",
+                "Sparring Gloves"
+            ],
+            "id": 49,
+            "name": "Hand of Justice",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Heal for 33% of all damage dealt."
+            ],
+            "combine": [
+                "B.F. Sword",
+                "Needlessly Large Rod"
+            ],
+            "id": 13,
+            "name": "Hextech Gunblade",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Wearer is also an Infiltrator."
+            ],
+            "combine": [
+                "Spatula",
+                "Recurve Bow"
+            ],
+            "id": 28,
+            "name": "Infiltrator's Talons",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "100% critical strike damage."
+            ],
+            "combine": [
+                "B.F. Sword",
+                "Sparring Gloves"
+            ],
+            "id": 19,
+            "name": "Infinity Edge",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Enemies within 3 hexes have their Magic Resist reduced by 25% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 20% of their max Mana."
+            ],
+            "combine": [
+                "Needlessly Large Rod",
+                "Negatron Cloak"
+            ],
+            "id": 36,
+            "name": "Ionic Spark",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "The wearer's spells can critically strike."
+            ],
+            "combine": [
+                "Needlessly Large Rod",
+                "Sparring Gloves"
+            ],
+            "id": 39,
+            "name": "Jeweled Gauntlet",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Critical hits reduce the target\u2019s Armor by 90% for 3 seconds. This effect does not stack."
+            ],
+            "combine": [
+                "Recurve Bow",
+                "Sparring Gloves"
+            ],
+            "id": 29,
+            "name": "Last Whisper",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Shields allies within two hexes in the same row for 250/275/350 damage for 8 seconds (scales with wearer\u2019s Star Level)"
+            ],
+            "combine": [
+                "Chain Vest",
+                "Needlessly Large Rod"
+            ],
+            "id": 35,
+            "name": "Locket of the Iron Solari",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Spells deal 150/175/225 splash damage on hit."
+            ],
+            "combine": [
+                "Needlessly Large Rod",
+                "Tear of the Goddess"
+            ],
+            "id": 34,
+            "name": "Luden's Echo",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Spells deal burn damage equal to 18% of the enemy's maximum health over 10 seconds and prevent healing."
+            ],
+            "combine": [
+                "Giant's Belt",
+                "Needlessly Large Rod"
+            ],
+            "id": 37,
+            "name": "Morellonomicon",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Wearer is also a Protector."
+            ],
+            "combine": [
+                "Spatula",
+                "Giant's Belt"
+            ],
+            "id": 78,
+            "name": "Protector's Chestguard",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "The wearer is immune to crowd control."
+            ],
+            "combine": [
+                "Negatron Cloak",
+                "Sparring Gloves"
+            ],
+            "id": 69,
+            "name": "Quicksilver",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Wearer's Spell Power stat is amplified by 50%."
+            ],
+            "combine": [
+                "Needlessly Large Rod",
+                "Needlessly Large Rod"
+            ],
+            "id": 33,
+            "name": "Rabadon's Deathcap",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Attack Range is doubled."
+            ],
+            "combine": [
+                "Recurve Bow",
+                "Recurve Bow"
+            ],
+            "id": 22,
+            "name": "Rapid Firecannon",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Wearer is also a Rebel."
+            ],
+            "combine": [
+                "Spatula",
+                "Chain Vest"
+            ],
+            "id": 58,
+            "name": "Rebel Medal",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Attacks deal 18% of the enemy's maximum Health as burn damage over 10s and prevent healing."
+            ],
+            "combine": [
+                "Chain Vest",
+                "Giant's Belt"
+            ],
+            "id": 57,
+            "name": "Red Buff",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "On crossing below 25% health, heal all nearby allies for 1200 health."
+            ],
+            "combine": [
+                "Giant's Belt",
+                "Tear of the Goddess"
+            ],
+            "id": 47,
+            "name": "Redemption",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Basic Attack fire an additional missile at another nearby enemy, dealing 60% of the wearer's Attack Damage and applying on-hit effects."
+            ],
+            "combine": [
+                "Negatron Cloak",
+                "Recurve Bow"
+            ],
+            "id": 26,
+            "name": "Runaan's Hurricane",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "After casting their spell, the wearer restores 20 Mana."
+            ],
+            "combine": [
+                "Tear of the Goddess",
+                "Tear of the Goddess"
+            ],
+            "id": 44,
+            "name": "Seraph's Embrace",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "When combat begins, shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by 40% until they cast."
+            ],
+            "combine": [
+                "Chain Vest",
+                "Sparring Gloves"
+            ],
+            "id": 59,
+            "name": "Shroud of Stillness",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "After casting, wearer gains 18% of its max mana per attack."
+            ],
+            "combine": [
+                "B.F. Sword",
+                "Tear of the Goddess"
+            ],
+            "id": 14,
+            "name": "Spear of Shojin",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Wearer is also a Star Guardian."
+            ],
+            "combine": [
+                "Spatula",
+                "Tear of the Goddess"
+            ],
+            "id": 48,
+            "name": "Star Guardian's Charm",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Every 3rd attack deals 85 splash magical damage to 3/4/5 additional targets."
+            ],
+            "combine": [
+                "Recurve Bow",
+                "Tear of the Goddess"
+            ],
+            "id": 24,
+            "name": "Statikk Shiv",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Attacks have a 25% chance to disarm for 3 seconds."
+            ],
+            "combine": [
+                "Chain Vest",
+                "Negatron Cloak"
+            ],
+            "id": 56,
+            "name": "Sword Breaker",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "This item takes all three item slots. On round begin, copy two random items."
+            ],
+            "combine": [
+                "Sparring Gloves",
+                "Sparring Gloves"
+            ],
+            "id": 99,
+            "name": "Thief's Gloves",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "When the wearer is hit or inflicts a critical strike, they gain a 2% stacking damage bonus, up to 100%. At 50 stacks, the wearer gains 25 Armor and MR; and increases in size. Resets every round."
+            ],
+            "combine": [
+                "Chain Vest",
+                "Recurve Bow"
+            ],
+            "id": 25,
+            "name": "Titan's Resolve",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "On combat begin, gain a spell shield. When it breaks, stun the champion who broke the shield for 4s."
+            ],
+            "combine": [
+                "Giant's Belt",
+                "Sparring Gloves"
+            ],
+            "id": 79,
+            "name": "Trap Claw",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "Wearer regenerates 6% maximum Health per second."
+            ],
+            "combine": [
+                "Giant's Belt",
+                "Giant's Belt"
+            ],
+            "id": 77,
+            "name": "Warmog's Armor",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "At the start of combat, allies within the same row gain +15% Attack Speed for the rest of combat."
+            ],
+            "combine": [
+                "B.F. Sword",
+                "Giant's Belt"
+            ],
+            "id": 17,
+            "name": "Zeke's Herald",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "On start of combat, banish an enemy for 7 seconds."
+            ],
+            "combine": [
+                "Giant's Belt",
+                "Negatron Cloak"
+            ],
+            "id": 67,
+            "name": "Zephyr",
+            "set": [
+                3
+            ]
+        },
+        {
+            "bonus": [
+                "When the wearer dies, a Construct arises to continue the fight."
+            ],
+            "combine": [
+                "Giant's Belt",
+                "Recurve Bow"
+            ],
+            "id": 27,
+            "name": "Zz'Rot Portal",
+            "set": [
+                3
+            ]
+        }
+    ]
+}

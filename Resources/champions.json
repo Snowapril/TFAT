@@ -1,0 +1,2939 @@
+{
+    "data": [
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                45
+            ],
+            "cost": 2,
+            "dps": [
+                33.75
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "126",
+            "items": [
+                "Jeweled Gauntlet",
+                "Morellonomicon",
+                "Seraph's Embrace"
+            ],
+            "mana_cost": 60,
+            "name": "Ahri",
+            "origin": [
+                "Star Guardian"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Ahri fires an orb in a line dealing magic damage to enemies it passes through. It then returns to her, dealing true damage to all enemies it passes through.",
+                "name": "Orb of Deception",
+                "tags": [
+                    {
+                        "bonus": [
+                            175,
+                            250,
+                            375
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.75,
+            "type": [
+                "Sorcerer"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                40
+            ],
+            "cost": 2,
+            "dps": [
+                26
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "127",
+            "items": [
+                "Guardian Angel",
+                "Ionic Spark",
+                "Warmog's Armor"
+            ],
+            "mana_cost": 150,
+            "name": "Annie",
+            "origin": [
+                "Mech Pilot"
+            ],
+            "range": 420,
+            "range_sm": 2,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Annie blasts a cone of fire dealing magic damage to enemies in front of her, then shields herself for 4 seconds.",
+                "name": "Galaxy Shield-Blast",
+                "tags": [
+                    {
+                        "bonus": [
+                            150,
+                            200,
+                            350
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            225,
+                            300,
+                            525
+                        ],
+                        "name": "Shield amount"
+                    }
+                ]
+            },
+            "speed": 0.65,
+            "type": [
+                "Sorcerer"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 3,
+            "dps": [
+                48
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "128",
+            "items": [
+                "Guinsoo's Rageblade",
+                "Spear of Shojin",
+                "Spear of Shojin"
+            ],
+            "mana_cost": 125,
+            "name": "Ashe",
+            "origin": [
+                "Celestial"
+            ],
+            "range": 1130,
+            "range_sm": 5,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Ashe fires an arrow toward the farthest enemy that explodes on the first target hit, dealing magic damage to all nearby enemies and stunning them.",
+                "name": "Enchanted Crystal Arrow",
+                "tags": [
+                    {
+                        "bonus": [
+                            250,
+                            350,
+                            700
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            2
+                        ],
+                        "name": "Stun duration"
+                    }
+                ]
+            },
+            "speed": 0.8,
+            "type": [
+                "Sniper"
+            ]
+        },
+        {
+            "armor": [
+                30
+            ],
+            "attack": [
+                10
+            ],
+            "cost": 5,
+            "dps": [
+                8
+            ],
+            "health": [
+                900,
+                1620,
+                2916
+            ],
+            "id": "129",
+            "items": [
+                "Jeweled Gauntlet",
+                "Morellonomicon",
+                "Seraph's Embrace"
+            ],
+            "mana_cost": 80,
+            "name": "Aurelion Sol",
+            "origin": [
+                "Rebel"
+            ],
+            "range": 225,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Aurelion Sol launches fighters, which fly out to random enemies, deal magic damage, and then return. Aurelion Sol launches all ready fighters plus 3 additional when he casts. Fighters prefer to target nearby enemies.",
+                "name": "Mobilize the Fleet",
+                "tags": [
+                    {
+                        "bonus": [
+                            120,
+                            175,
+                            750
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.8,
+            "type": [
+                "Starship"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                55
+            ],
+            "cost": 2,
+            "dps": [
+                27.5
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "130",
+            "items": [
+                "Dragon's Claw",
+                "Warmog's Armor",
+                "Warmog's Armor"
+            ],
+            "mana_cost": 125,
+            "name": "Blitzcrank",
+            "origin": [
+                "Chrono"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Blitzcrank pulls the furthest enemy to him, dealing magic damage and stunning them for 2.5 seconds. The next attack after pulling knocks up for 1 second. Allies within range will prioritize attacking Blitzcrank's target.",
+                "name": "Rocket Grab",
+                "tags": [
+                    {
+                        "bonus": [
+                            250,
+                            400,
+                            900
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.5,
+            "type": [
+                "Brawler"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                45
+            ],
+            "cost": 1,
+            "dps": [
+                33.75
+            ],
+            "health": [
+                500,
+                900,
+                1620
+            ],
+            "id": "131",
+            "items": [
+                "Statikk Shiv",
+                "Statikk Shiv",
+                "Statikk Shiv"
+            ],
+            "mana_cost": 125,
+            "name": "Caitlyn",
+            "origin": [
+                "Chrono"
+            ],
+            "range": 890,
+            "range_sm": 5,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Caitlyn takes aim at the furthest enemy, firing a deadly bullet towards them that deals magic damage to the first enemy it hits.",
+                "name": "Ace in the Hole",
+                "tags": [
+                    {
+                        "bonus": [
+                            700,
+                            1000,
+                            3000
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.75,
+            "type": [
+                "Sniper"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                70
+            ],
+            "cost": 4,
+            "dps": [
+                42
+            ],
+            "health": [
+                1000,
+                1800,
+                3240
+            ],
+            "id": "132",
+            "items": [
+                "Guardian Angel",
+                "Morellonomicon",
+                "Warmog's Armor"
+            ],
+            "mana_cost": 150,
+            "name": "Chogath",
+            "origin": [
+                "Void"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Cho'Gath ruptures a large area, dealing magic damage and knocking up all enemies within.",
+                "name": "Rupture",
+                "tags": [
+                    {
+                        "bonus": [
+                            150,
+                            250,
+                            2000
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            2,
+                            2,
+                            4
+                        ],
+                        "name": "Knockup duration"
+                    }
+                ]
+            },
+            "speed": 0.6,
+            "type": [
+                "Brawler"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 2,
+            "dps": [
+                39
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "133",
+            "items": [
+                "Bramble Vest",
+                "Guardian Angel",
+                "Ionic Spark"
+            ],
+            "mana_cost": 70,
+            "name": "Darius",
+            "origin": [
+                "Space Pirate"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Darius dunks an enemy, dealing magic damage. If this kills the target, Darius immediately casts again. Targets below 50% health take double damage.",
+                "name": "Dreadnova Guillotine",
+                "tags": [
+                    {
+                        "bonus": [
+                            400,
+                            500,
+                            750
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.65,
+            "type": [
+                "Mana-Reaver"
+            ]
+        },
+        {
+            "armor": [
+                30
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 5,
+            "dps": [
+                54
+            ],
+            "health": [
+                850,
+                1530,
+                2754
+            ],
+            "id": "134",
+            "items": [
+                "Guardian Angel",
+                "Morellonomicon",
+                "Spear of Shojin"
+            ],
+            "mana_cost": 150,
+            "name": "Ekko",
+            "origin": [
+                "Cybernetic"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Ekko shatters the timeline, freezing all units in time before attacking each enemy with bonus magic damage and applying on-hit effects. Ekko cannot die while he has stopped time.",
+                "name": "Chronobreak",
+                "tags": [
+                    {
+                        "bonus": [
+                            200,
+                            450,
+                            2000
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.9,
+            "type": [
+                "Infiltrator"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 3,
+            "dps": [
+                42
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "135",
+            "items": [
+                "Giant Slayer",
+                "Red Buff",
+                "Spear of Shojin"
+            ],
+            "mana_cost": 120,
+            "name": "Ezreal",
+            "origin": [
+                "Chrono"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Ezreal fires an electromagnetic pulse at a random enemy that explodes on impact, dealing magic damage to all nearby enemies and increases the cost of their next spell cast by 40%.",
+                "name": "E.M.P.",
+                "tags": [
+                    {
+                        "bonus": [
+                            250,
+                            350,
+                            700
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Blaster"
+            ]
+        },
+        {
+            "armor": [
+                30
+            ],
+            "attack": [
+                45
+            ],
+            "cost": 1,
+            "dps": [
+                45
+            ],
+            "health": [
+                450,
+                810,
+                1458
+            ],
+            "id": "136",
+            "items": [
+                "Guardian Angel",
+                "Guinsoo's Rageblade",
+                "Hand of Justice"
+            ],
+            "mana_cost": 85,
+            "name": "Fiora",
+            "origin": [
+                "Cybernetic"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Fiora enters a defensive stance for 1.5 seconds, becoming immune to damage and enemy spell effects. As she exits this stance, she ripostes, dealing magic damage to a nearby enemy and stunning them for 1.5 seconds.",
+                "name": "Riposte",
+                "tags": [
+                    {
+                        "bonus": [
+                            200,
+                            300,
+                            450
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 1,
+            "type": [
+                "Blademaster"
+            ]
+        },
+        {
+            "armor": [
+                25
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 4,
+            "dps": [
+                42
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "137",
+            "items": [
+                "Guardian Angel",
+                "Ionic Spark",
+                "Warmog's Armor"
+            ],
+            "mana_cost": 150,
+            "name": "Fizz",
+            "origin": [
+                "Mech Pilot"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Fizz throws a lure that attracts a shark, causing it to emerge after a brief delay. It deals magic damage to enemies caught, knocking them back and stunning them for 1.5 seconds.",
+                "name": "Chum the Waters",
+                "tags": [
+                    {
+                        "bonus": [
+                            350,
+                            500,
+                            2000
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Infiltrator"
+            ]
+        },
+        {
+            "armor": [
+                30
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 5,
+            "dps": [
+                60
+            ],
+            "health": [
+                1000,
+                1800,
+                3240
+            ],
+            "id": "138",
+            "items": [
+                "Guardian Angel",
+                "Jeweled Gauntlet",
+                "Rabadon's Deathcap"
+            ],
+            "mana_cost": 150,
+            "name": "Gangplank",
+            "origin": [
+                "Space Pirate"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Gangplank calls down a large orbital strike around his target, dealing magic damage to all enemies in that area for 2 seconds.",
+                "name": "Orbital Strike",
+                "tags": [
+                    {
+                        "bonus": [
+                            550,
+                            750,
+                            9001
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 1,
+            "type": [
+                "Mercenary",
+                "Demolitionist"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                55
+            ],
+            "cost": 1,
+            "dps": [
+                30.250000000000004
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "139",
+            "items": [
+                "Giant Slayer",
+                "Rapid Firecannon",
+                "Red Buff"
+            ],
+            "mana_cost": 100,
+            "name": "Graves",
+            "origin": [
+                "Space Pirate"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Graves launches a smoke grenade toward the highest attack speed enemy, which explodes on impact dealing magic damage to enemies in the area and causing their attacks to miss for 4 seconds.",
+                "name": "Smoke Grenade",
+                "tags": [
+                    {
+                        "bonus": [
+                            150,
+                            200,
+                            400
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.55,
+            "type": [
+                "Blaster"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                70
+            ],
+            "cost": 4,
+            "dps": [
+                59.5
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "id": "140",
+            "items": [
+                "Bloodthirster",
+                "Guardian Angel",
+                "Infinity Edge"
+            ],
+            "mana_cost": 30,
+            "name": "Irelia",
+            "origin": [
+                "Cybernetic"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Irelia dashes past her target, attacking them for a percentage of her Attack Damage as she passes through. If this kills the target, she casts again immediately at the enemy with the highest mana.",
+                "name": "Bladesurge",
+                "tags": [
+                    {
+                        "bonus": [
+                            "175%",
+                            "250%",
+                            "500%"
+                        ],
+                        "name": "Percent of Attack Damage"
+                    }
+                ]
+            },
+            "speed": 0.85,
+            "type": [
+                "Mana-Reaver",
+                "Blademaster"
+            ]
+        },
+        {
+            "armor": [
+                40
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 1,
+            "dps": [
+                30
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "141",
+            "items": [
+                "Bramble Vest",
+                "Guardian Angel",
+                "Warmog's Armor"
+            ],
+            "mana_cost": 100,
+            "name": "Jarvan IV",
+            "origin": [
+                "Dark Star"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Jarvan calls down his standard to a nearby location, granting nearby allies Attack Speed for 6 seconds.",
+                "name": "Ageless Standard",
+                "tags": [
+                    {
+                        "bonus": [
+                            "50%",
+                            "75%",
+                            "100%"
+                        ],
+                        "name": "Attack speed"
+                    }
+                ]
+            },
+            "speed": 0.6,
+            "type": [
+                "Protector"
+            ]
+        },
+        {
+            "armor": [
+                40
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 3,
+            "dps": [
+                42
+            ],
+            "health": [
+                750,
+                1350,
+                2430
+            ],
+            "id": "142",
+            "items": [
+                "Guardian Angel",
+                "Hextech Gunblade",
+                "Ionic Spark"
+            ],
+            "mana_cost": 80,
+            "name": "Jayce",
+            "origin": [
+                "Space Pirate"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Jayce jumps into the air and slams his hammer, dealing magic damage to nearby enemies.",
+                "name": "To the Skies",
+                "tags": [
+                    {
+                        "bonus": [
+                            450,
+                            600,
+                            1200
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Vanguard"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                90
+            ],
+            "cost": 4,
+            "dps": [
+                81
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "143",
+            "items": [
+                "Bloodthirster",
+                "Guardian Angel",
+                "Trap Claw"
+            ],
+            "mana_cost": 0,
+            "name": "Jhin",
+            "origin": [
+                "Dark Star"
+            ],
+            "range": 890,
+            "range_sm": 5,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Jhin converts each 1% of bonus attack speed he has into 0.8 attack damage. Every fourth shot, Jhin deals a bonus percent of attack damage.",
+                "name": "Whisper",
+                "tags": [
+                    {
+                        "bonus": [
+                            "244%",
+                            "344%",
+                            "4444%"
+                        ],
+                        "name": "Percent of Attack Damage"
+                    }
+                ]
+            },
+            "speed": 0.9,
+            "type": [
+                "Sniper"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                70
+            ],
+            "cost": 4,
+            "dps": [
+                49
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "144",
+            "items": [
+                "Giant Slayer",
+                "Guardian Angel",
+                "Red Buff"
+            ],
+            "mana_cost": 0,
+            "name": "Jinx",
+            "origin": [
+                "Rebel"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Jinx gets excited as she helps take down enemies. After her first takedown, Jinx gains bonus attack speed. After her second takedown, Jinx swaps to her rocket launcher, causing her Basic Attacks to deal bonus magic damage to all enemies in a small area around her target.",
+                "name": "Get Excited",
+                "tags": [
+                    {
+                        "bonus": [
+                            "60%",
+                            "75%",
+                            "100%"
+                        ],
+                        "name": "Attack speed"
+                    },
+                    {
+                        "bonus": [
+                            100,
+                            175,
+                            750
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Blaster"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 2,
+            "dps": [
+                37.5
+            ],
+            "health": [
+                550,
+                990,
+                1782
+            ],
+            "id": "145",
+            "items": [
+                "Jeweled Gauntlet",
+                "Morellonomicon",
+                "Seraph's Embrace"
+            ],
+            "mana_cost": 60,
+            "name": "Kaisa",
+            "origin": [
+                "Valkyrie"
+            ],
+            "range": 420,
+            "range_sm": 2,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Kai'Sa launches missiles towards each nearby enemy that deal 50 magic damage each.",
+                "name": "Missile Rain",
+                "tags": [
+                    {
+                        "bonus": [
+                            4,
+                            6,
+                            9
+                        ],
+                        "name": "Number of missiles"
+                    }
+                ]
+            },
+            "speed": 0.75,
+            "type": [
+                "Infiltrator"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 3,
+            "dps": [
+                32.5
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "146",
+            "items": [
+                "Guinsoo's Rageblade",
+                "Spear of Shojin",
+                "Spear of Shojin"
+            ],
+            "mana_cost": 100,
+            "name": "Karma",
+            "origin": [
+                "Dark Star"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "At the start of combat, Karma tethers to her closest ally. Karma shields the tethered ally, or random if the ally is dead for 4 seconds. While the shield holds, the ally receives bonus attack speed.",
+                "name": "Inspire",
+                "tags": [
+                    {
+                        "bonus": [
+                            "35%",
+                            "50%",
+                            "100%"
+                        ],
+                        "name": "Attack speed"
+                    },
+                    {
+                        "bonus": [
+                            250,
+                            400,
+                            800
+                        ],
+                        "name": "Shield amount"
+                    }
+                ]
+            },
+            "speed": 0.65,
+            "type": [
+                "Mystic"
+            ]
+        },
+        {
+            "armor": [
+                30
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 3,
+            "dps": [
+                32.5
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "id": "147",
+            "items": [
+                "Bramble Vest",
+                "Guardian Angel",
+                "Ionic Spark"
+            ],
+            "mana_cost": 100,
+            "name": "Kassadin",
+            "origin": [
+                "Celestial"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Kassadin releases a wave of energy in front of him, dealing magic damage and disarming all targets hit.",
+                "name": "Force Pulse",
+                "tags": [
+                    {
+                        "bonus": [
+                            250,
+                            400,
+                            800
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            2.5,
+                            3,
+                            3.5
+                        ],
+                        "name": "Disarm duration"
+                    }
+                ]
+            },
+            "speed": 0.65,
+            "type": [
+                "Mana-Reaver"
+            ]
+        },
+        {
+            "armor": [
+                25
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 4,
+            "dps": [
+                48
+            ],
+            "health": [
+                700,
+                1260,
+                2268
+            ],
+            "id": "148",
+            "items": [
+                "Guinsoo's Rageblade",
+                "Hand of Justice",
+                "Rapid Firecannon"
+            ],
+            "mana_cost": 60,
+            "name": "Kayle",
+            "origin": [
+                "Valkyrie"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Kayle Ascends, causing her attacks to launch waves that deal bonus magic damage until the end of combat.",
+                "name": "Ascent",
+                "tags": [
+                    {
+                        "bonus": [
+                            125,
+                            200,
+                            750
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.8,
+            "type": [
+                "Blademaster"
+            ]
+        },
+        {
+            "armor": [
+                25
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 1,
+            "dps": [
+                35
+            ],
+            "health": [
+                500,
+                900,
+                1620
+            ],
+            "id": "149",
+            "items": [
+                "Bloodthirster",
+                "Infinity Edge",
+                "Rapid Firecannon"
+            ],
+            "mana_cost": 65,
+            "name": "Khazix",
+            "origin": [
+                "Void"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Kha'Zix slashes the nearest enemy, dealing magic damage. If the target has no adjacent teammates, this damage is increased.",
+                "name": "Taste their Fear",
+                "tags": [
+                    {
+                        "bonus": [
+                            175,
+                            250,
+                            400
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            600,
+                            825,
+                            1350
+                        ],
+                        "name": "Isolation damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Infiltrator"
+            ]
+        },
+        {
+            "armor": [
+                40
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 1,
+            "dps": [
+                27.500000000000004
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "150",
+            "items": [
+                "Bramble Vest",
+                "Bramble Vest",
+                "Warmog's Armor"
+            ],
+            "mana_cost": 100,
+            "name": "Leona",
+            "origin": [
+                "Cybernetic"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Leona creates a barrier, reducing all incoming damage for 4 seconds.",
+                "name": "Cyber Barrier",
+                "tags": [
+                    {
+                        "bonus": [
+                            40,
+                            80,
+                            120
+                        ],
+                        "name": "Damage reduction"
+                    }
+                ]
+            },
+            "speed": 0.55,
+            "type": [
+                "Vanguard"
+            ]
+        },
+        {
+            "armor": [
+                25
+            ],
+            "attack": [
+                55
+            ],
+            "cost": 2,
+            "dps": [
+                38.5
+            ],
+            "health": [
+                500,
+                900,
+                1620
+            ],
+            "id": "151",
+            "items": [
+                "Giant Slayer",
+                "Giant Slayer",
+                "Red Buff"
+            ],
+            "mana_cost": 35,
+            "name": "Lucian",
+            "origin": [
+                "Cybernetic"
+            ],
+            "range": 890,
+            "range_sm": 4,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Lucian dashes away from his current target, then Basic Attacks them and fires a second shot which deals magic damage.",
+                "name": "Relentless Pursuit",
+                "tags": [
+                    {
+                        "bonus": [
+                            150,
+                            200,
+                            325
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Blaster"
+            ]
+        },
+        {
+            "armor": [
+                25
+            ],
+            "attack": [
+                45
+            ],
+            "cost": 5,
+            "dps": [
+                38.25
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "id": "152",
+            "items": [
+                "Guinsoo's Rageblade",
+                "Spear of Shojin",
+                "Spear of Shojin"
+            ],
+            "mana_cost": 150,
+            "name": "Lulu",
+            "origin": [
+                "Celestial"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Lulu polymorphs the nearest enemies for 4 seconds, rendering them unable to attack or cast, and causing them to hop around aimlessly. Polymorphed enemies take additional damage.",
+                "name": "Mass Polymorph",
+                "tags": [
+                    {
+                        "bonus": [
+                            "5%",
+                            "10%",
+                            "25%"
+                        ],
+                        "name": "Bonus damage"
+                    },
+                    {
+                        "bonus": [
+                            2,
+                            4,
+                            12
+                        ],
+                        "name": "Number of targets"
+                    }
+                ]
+            },
+            "speed": 0.85,
+            "type": [
+                "Mystic"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                40
+            ],
+            "cost": 3,
+            "dps": [
+                28
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "153",
+            "items": [
+                "Jeweled Gauntlet",
+                "Rabadon's Deathcap",
+                "Seraph's Embrace"
+            ],
+            "mana_cost": 100,
+            "name": "Lux",
+            "origin": [
+                "Dark Star"
+            ],
+            "range": 890,
+            "range_sm": 4,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Lux fires a sphere of darkness towards the farthest enemy. Enemies caught along its path take magic damage and are stunned.",
+                "name": "Lurid Binding",
+                "tags": [
+                    {
+                        "bonus": [
+                            200,
+                            300,
+                            600
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            1.5,
+                            2,
+                            2.5
+                        ],
+                        "name": "Stun duration"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Sorcerer"
+            ]
+        },
+        {
+            "armor": [
+                30
+            ],
+            "attack": [
+                70
+            ],
+            "cost": 1,
+            "dps": [
+                35
+            ],
+            "health": [
+                700,
+                1260,
+                2268
+            ],
+            "id": "154",
+            "items": [
+                "Warmog's Armor",
+                "Warmog's Armor",
+                "Warmog's Armor"
+            ],
+            "mana_cost": 0,
+            "name": "Malphite",
+            "origin": [
+                "Rebel"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Malphite starts combat with a shield equal to a percent of his maximum health.",
+                "name": "Energy Shield",
+                "tags": [
+                    {
+                        "bonus": [
+                            40,
+                            45,
+                            50
+                        ],
+                        "name": "Max health percent"
+                    }
+                ]
+            },
+            "speed": 0.5,
+            "type": [
+                "Brawler"
+            ]
+        },
+        {
+            "armor": [
+                30
+            ],
+            "attack": [
+                55
+            ],
+            "cost": 3,
+            "dps": [
+                44
+            ],
+            "health": [
+                750,
+                1350,
+                2430
+            ],
+            "id": "155",
+            "items": [
+                "Guinsoo's Rageblade",
+                "Hand of Justice",
+                "Rapid Firecannon"
+            ],
+            "mana_cost": 55,
+            "name": "Master Yi",
+            "origin": [
+                "Rebel"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "For 5 seconds, Master Yi gains massively increased movement speed, heals for a percentage of his maximum health each second, and deals bonus true damage with his Basic Attacks.",
+                "name": "Chosen One",
+                "tags": [
+                    {
+                        "bonus": [
+                            75,
+                            100,
+                            200
+                        ],
+                        "name": "True damage"
+                    },
+                    {
+                        "bonus": [
+                            "8%",
+                            "10%",
+                            "15%"
+                        ],
+                        "name": "Heal per second"
+                    }
+                ]
+            },
+            "speed": 0.8,
+            "type": [
+                "Blademaster"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 5,
+            "dps": [
+                66
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "id": "156",
+            "items": [
+                "Quicksilver",
+                "Seraph's Embrace",
+                "Seraph's Embrace"
+            ],
+            "mana_cost": 160,
+            "name": "Miss Fortune",
+            "origin": [
+                "Valkyrie"
+            ],
+            "range": 890,
+            "range_sm": 4,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Miss Fortune channels and fires waves of bullets in a cone for 2.25 seconds, dealing a percentage of enemies' maximum health in magic damage over the duration.",
+                "name": "Bullet Time",
+                "tags": [
+                    {
+                        "bonus": [
+                            "70%",
+                            "90%",
+                            "999%"
+                        ],
+                        "name": "Percent Health Damaged"
+                    },
+                    {
+                        "bonus": [
+                            400,
+                            700,
+                            1000
+                        ],
+                        "name": "Upgrade: Shield Value"
+                    }
+                ]
+            },
+            "speed": 1.1,
+            "type": [
+                "Mercenary",
+                "Blaster"
+            ]
+        },
+        {
+            "armor": [
+                40
+            ],
+            "attack": [
+                55
+            ],
+            "cost": 2,
+            "dps": [
+                33
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "157",
+            "items": [
+                "Bramble Vest",
+                "Guardian Angel",
+                "Ionic Spark"
+            ],
+            "mana_cost": 90,
+            "name": "Mordekaiser",
+            "origin": [
+                "Dark Star"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Mordekaiser gains a shield that absorbs damage. While the shield persists, Mordekaiser deals magic damage per second to all nearby enemies.",
+                "name": "Indestructible",
+                "tags": [
+                    {
+                        "bonus": [
+                            50,
+                            75,
+                            125
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            350,
+                            500,
+                            900
+                        ],
+                        "name": "Shield amount"
+                    }
+                ]
+            },
+            "speed": 0.6,
+            "type": [
+                "Vanguard"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 3,
+            "dps": [
+                32.5
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "id": "158",
+            "items": [
+                "Bramble Vest",
+                "Guardian Angel",
+                "Ionic Spark"
+            ],
+            "mana_cost": 150,
+            "name": "Neeko",
+            "origin": [
+                "Star Guardian"
+            ],
+            "range": 420,
+            "range_sm": 2,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Neeko leaps into the air and slams into the ground, dealing magic damage and stunning all nearby enemies.",
+                "name": "Pop Blossom",
+                "tags": [
+                    {
+                        "bonus": [
+                            200,
+                            275,
+                            550
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            2,
+                            2.5,
+                            5
+                        ],
+                        "name": "Stun duration"
+                    }
+                ]
+            },
+            "speed": 0.65,
+            "type": [
+                "Protector"
+            ]
+        },
+        {
+            "armor": [
+                40
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 1,
+            "dps": [
+                27.500000000000004
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "159",
+            "items": [
+                "Bramble Vest",
+                "Guardian Angel",
+                "Ionic Spark"
+            ],
+            "mana_cost": 100,
+            "name": "Poppy",
+            "origin": [
+                "Star Guardian"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Poppy throws her buckler at the furthest enemy dealing damage. The buckler bounces back to Poppy, shielding her.",
+                "name": "Buckler Toss",
+                "tags": [
+                    {
+                        "bonus": [
+                            100,
+                            175,
+                            250
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            200,
+                            350,
+                            600
+                        ],
+                        "name": "Shield amount"
+                    }
+                ]
+            },
+            "speed": 0.55,
+            "type": [
+                "Vanguard"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                45
+            ],
+            "cost": 2,
+            "dps": [
+                31.499999999999996
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "160",
+            "items": [
+                "Guardian Angel",
+                "Spear of Shojin",
+                "Warmog's Armor"
+            ],
+            "mana_cost": 150,
+            "name": "Rakan",
+            "origin": [
+                "Celestial"
+            ],
+            "range": 420,
+            "range_sm": 2,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Rakan dashes to his attack target and leaps into the air, knocking up and dealing magic damage to all nearby enemies.",
+                "name": "Grand Entrance",
+                "tags": [
+                    {
+                        "bonus": [
+                            175,
+                            275,
+                            450
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            1.5
+                        ],
+                        "name": "Knockup duration"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Protector"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 3,
+            "dps": [
+                35
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "id": "161",
+            "items": [
+                "Guardian Angel",
+                "Ionic Spark",
+                "Warmog's Armor"
+            ],
+            "mana_cost": 60,
+            "name": "Rumble",
+            "origin": [
+                "Mech Pilot"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Rumble torches his enemies, dealing magic damage in a cone over 3 seconds, and reducing healing on them by 50% for 5 seconds.",
+                "name": "Flamespitter",
+                "tags": [
+                    {
+                        "bonus": [
+                            250,
+                            400,
+                            800
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Demolitionist"
+            ]
+        },
+        {
+            "armor": [
+                25
+            ],
+            "attack": [
+                55
+            ],
+            "cost": 3,
+            "dps": [
+                44
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "162",
+            "items": [
+                "Bloodthirster",
+                "Guardian Angel",
+                "Infinity Edge"
+            ],
+            "mana_cost": 60,
+            "name": "Shaco",
+            "origin": [
+                "Dark Star"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Shaco teleports and backstabs his target, critically striking for a percentage of his Basic Attack damage.",
+                "name": "Deceive",
+                "tags": [
+                    {
+                        "bonus": [
+                            "250%",
+                            "325%",
+                            "450%"
+                        ],
+                        "name": "Percent damage"
+                    }
+                ]
+            },
+            "speed": 0.8,
+            "type": [
+                "Infiltrator"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 2,
+            "dps": [
+                42
+            ],
+            "health": [
+                700,
+                1260,
+                2268
+            ],
+            "id": "163",
+            "items": [
+                "Bramble Vest",
+                "Dragon's Claw",
+                "Guardian Angel"
+            ],
+            "mana_cost": 150,
+            "name": "Shen",
+            "origin": [
+                "Chrono"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Shen creates a zone around himself for a few seconds, granting all narby allies 100% chance to dodge incoming basic attacks. While active, Shen gains Magic Resist.",
+                "name": "Future's Refuge",
+                "tags": [
+                    {
+                        "bonus": [
+                            2.5,
+                            3,
+                            4
+                        ],
+                        "name": "Duration"
+                    },
+                    {
+                        "bonus": [
+                            20,
+                            40,
+                            60
+                        ],
+                        "name": "Magic resist"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Blademaster"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                40
+            ],
+            "cost": 2,
+            "dps": [
+                26
+            ],
+            "health": [
+                550,
+                990,
+                1782
+            ],
+            "id": "164",
+            "items": [
+                "Guardian Angel",
+                "Seraph's Embrace",
+                "Zephyr"
+            ],
+            "mana_cost": 40,
+            "name": "Sona",
+            "origin": [
+                "Rebel"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Sona heals injured allies and cleanses them of all negative effects.",
+                "name": "Aria of Perseverance",
+                "tags": [
+                    {
+                        "bonus": [
+                            100,
+                            150,
+                            200
+                        ],
+                        "name": "Healing"
+                    },
+                    {
+                        "bonus": [
+                            2,
+                            3,
+                            5
+                        ],
+                        "name": "Number of targets"
+                    }
+                ]
+            },
+            "speed": 0.65,
+            "type": [
+                "Mystic"
+            ]
+        },
+        {
+            "armor": [
+                30
+            ],
+            "attack": [
+                45
+            ],
+            "cost": 4,
+            "dps": [
+                33.75
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "165",
+            "items": [
+                "Guardian Angel",
+                "Spear of Shojin",
+                "Zephyr"
+            ],
+            "mana_cost": 150,
+            "name": "Soraka",
+            "origin": [
+                "Star Guardian"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Soraka heals all allies.",
+                "name": "Wish",
+                "tags": [
+                    {
+                        "bonus": [
+                            300,
+                            450,
+                            2000
+                        ],
+                        "name": "Healing"
+                    }
+                ]
+            },
+            "speed": 0.75,
+            "type": [
+                "Mystic"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                45
+            ],
+            "cost": 3,
+            "dps": [
+                31.499999999999996
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "166",
+            "items": [
+                "Jeweled Gauntlet",
+                "Rabadon's Deathcap",
+                "Seraph's Embrace"
+            ],
+            "mana_cost": 50,
+            "name": "Syndra",
+            "origin": [
+                "Star Guardian"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Syndra pulls in all orbs on the battlefield and creates 3 new ones, then fires them all at the enemy with the highest health, dealing magic damage per orb.",
+                "name": "Unleashed Power",
+                "tags": [
+                    {
+                        "bonus": [
+                            80,
+                            120,
+                            200
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Sorcerer"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 5,
+            "dps": [
+                47.5
+            ],
+            "health": [
+                950,
+                1710,
+                3078
+            ],
+            "id": "167",
+            "items": [
+                "Guardian Angel",
+                "Seraph's Embrace",
+                "Spear of Shojin"
+            ],
+            "mana_cost": 85,
+            "name": "Thresh",
+            "origin": [
+                "Chrono"
+            ],
+            "range": 420,
+            "range_sm": 2,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Thresh tosses his lantern towards random unit(s) on your bench, pulling them into the current combat and granting them and himself bonus mana. Traits are unaffected.",
+                "name": "Temporal Passage",
+                "tags": [
+                    {
+                        "bonus": [
+                            1,
+                            1,
+                            9
+                        ],
+                        "name": "Number of units"
+                    },
+                    {
+                        "bonus": [
+                            25,
+                            50,
+                            200
+                        ],
+                        "name": "Mana"
+                    }
+                ]
+            },
+            "speed": 0.95,
+            "type": [
+                "Mana-Reaver"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                45
+            ],
+            "cost": 1,
+            "dps": [
+                31.499999999999996
+            ],
+            "health": [
+                550,
+                990,
+                1782
+            ],
+            "id": "168",
+            "items": [
+                "Statikk Shiv",
+                "Statikk Shiv",
+                "Statikk Shiv"
+            ],
+            "mana_cost": 75,
+            "name": "Twisted Fate",
+            "origin": [
+                "Chrono"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Twisted Fate throws three cards in a cone that deal magic damage to each enemy they pass through.",
+                "name": "Wild Cards",
+                "tags": [
+                    {
+                        "bonus": [
+                            200,
+                            300,
+                            500
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Sorcerer"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                45
+            ],
+            "cost": 4,
+            "dps": [
+                33.75
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "169",
+            "items": [
+                "Jeweled Gauntlet",
+                "Morellonomicon",
+                "Seraph's Embrace"
+            ],
+            "mana_cost": 80,
+            "name": "Velkoz",
+            "origin": [
+                "Void"
+            ],
+            "range": 890,
+            "range_sm": 4,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Vel'Koz channels a ray of energy that sweeps across the battlefield over 2.5 seconds, dealing magic damage per second to enemies hit.",
+                "name": "Lifeform Disintegration Ray",
+                "tags": [
+                    {
+                        "bonus": [
+                            425,
+                            550,
+                            2000
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.75,
+            "type": [
+                "Sorcerer"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 3,
+            "dps": [
+                39
+            ],
+            "health": [
+                700,
+                1260,
+                2268
+            ],
+            "id": "170",
+            "items": [
+                "Bramble Vest",
+                "Guardian Angel",
+                "Ionic Spark"
+            ],
+            "mana_cost": 140,
+            "name": "Vi",
+            "origin": [
+                "Cybernetic"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Vi charges at the furthest enemy, knocking aside and dealing magic damage to all enemies along the way. When she reaches her target, she deals magic damage and knocks them up.",
+                "name": "Assault and Battery",
+                "tags": [
+                    {
+                        "bonus": [
+                            400,
+                            600,
+                            1200
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            150,
+                            200,
+                            500
+                        ],
+                        "name": "Secondary damage"
+                    },
+                    {
+                        "bonus": [
+                            2,
+                            2.5,
+                            3
+                        ],
+                        "name": "Stun duration"
+                    }
+                ]
+            },
+            "speed": 0.65,
+            "type": [
+                "Brawler"
+            ]
+        },
+        {
+            "armor": [
+                40
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 4,
+            "dps": [
+                37.5
+            ],
+            "health": [
+                850,
+                1530,
+                2754
+            ],
+            "id": "171",
+            "items": [
+                "Bramble Vest",
+                "Guardian Angel",
+                "Ionic Spark"
+            ],
+            "mana_cost": 150,
+            "name": "Wukong",
+            "origin": [
+                "Chrono"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Wukong spins rapidly around, dealing magic damage to nearby units over 3 seconds. The first time Wukong hits each enemy, he knocks them into the air and stuns them.",
+                "name": "Cyclone",
+                "tags": [
+                    {
+                        "bonus": [
+                            250,
+                            450,
+                            2000
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            2,
+                            2.5,
+                            5
+                        ],
+                        "name": "Stun duration"
+                    }
+                ]
+            },
+            "speed": 0.75,
+            "type": [
+                "Vanguard"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                55
+            ],
+            "cost": 1,
+            "dps": [
+                41.25
+            ],
+            "health": [
+                500,
+                900,
+                1620
+            ],
+            "id": "172",
+            "items": [
+                "Statikk Shiv",
+                "Statikk Shiv",
+                "Statikk Shiv"
+            ],
+            "mana_cost": 50,
+            "name": "Xayah",
+            "origin": [
+                "Celestial"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Xayah creates a storm of blades, gaining 100% Attack Speed for a few seconds.",
+                "name": "Deadly Plumage",
+                "tags": [
+                    {
+                        "bonus": [
+                            "75%",
+                            "100%",
+                            "150%"
+                        ],
+                        "name": "Attack speed bonus"
+                    },
+                    {
+                        "bonus": [
+                            8
+                        ],
+                        "name": "Duration"
+                    }
+                ]
+            },
+            "speed": 0.75,
+            "type": [
+                "Blademaster"
+            ]
+        },
+        {
+            "armor": [
+                35
+            ],
+            "attack": [
+                60
+            ],
+            "cost": 2,
+            "dps": [
+                42
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "id": "173",
+            "items": [
+                "Bramble Vest",
+                "Dragon's Claw",
+                "Warmog's Armor"
+            ],
+            "mana_cost": 50,
+            "name": "Xin Zhao",
+            "origin": [
+                "Celestial"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Xin Zhao quickly strikes his target three times, dealing Basic Attack damage and applying on-hit effects. The third strike deals bonus magic damage and knocks his target up for 1.5 seconds.",
+                "name": "Three Talon Strike",
+                "tags": [
+                    {
+                        "bonus": [
+                            175,
+                            250,
+                            400
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Protector"
+            ]
+        },
+        {
+            "armor": [
+                30
+            ],
+            "attack": [
+                50
+            ],
+            "cost": 2,
+            "dps": [
+                37.5
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "id": "174",
+            "items": [
+                "Guardian Angel",
+                "Hand of Justice",
+                "Infinity Edge"
+            ],
+            "mana_cost": 90,
+            "name": "Yasuo",
+            "origin": [
+                "Rebel"
+            ],
+            "range": 180,
+            "range_sm": 1,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Yasuo blinks to the enemy with the most items and knocks them up, holding them airborne for 1 second and hitting them multiple times, dealing Basic Attack damage and applying on-hit effects.",
+                "name": "Last Breath",
+                "tags": [
+                    {
+                        "bonus": [
+                            4,
+                            5,
+                            6
+                        ],
+                        "name": "Number of Strikes"
+                    }
+                ]
+            },
+            "speed": 0.75,
+            "type": [
+                "Blademaster"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                40
+            ],
+            "cost": 1,
+            "dps": [
+                28
+            ],
+            "health": [
+                500,
+                900,
+                1620
+            ],
+            "id": "175",
+            "items": [
+                "Jeweled Gauntlet",
+                "Seraph's Embrace",
+                "Rabadon's Deathcap"
+            ],
+            "mana_cost": 40,
+            "name": "Ziggs",
+            "origin": [
+                "Rebel"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Ziggs throws a bomb at an enemy, dealing magic damage.",
+                "name": "Bomb",
+                "tags": [
+                    {
+                        "bonus": [
+                            250,
+                            325,
+                            550
+                        ],
+                        "name": "Damage"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Demolitionist"
+            ]
+        },
+        {
+            "armor": [
+                20
+            ],
+            "attack": [
+                40
+            ],
+            "cost": 1,
+            "dps": [
+                28
+            ],
+            "health": [
+                500,
+                900,
+                1620
+            ],
+            "id": "176",
+            "items": [
+                "Guinsoo's Rageblade",
+                "Spear of Shojin",
+                "Spear of Shojin"
+            ],
+            "mana_cost": 120,
+            "name": "Zoe",
+            "origin": [
+                "Star Guardian"
+            ],
+            "range": 660,
+            "range_sm": 3,
+            "resistance": [
+                20
+            ],
+            "set": [
+                3
+            ],
+            "skill": {
+                "description": "Zoe kicks a bubble at the enemy with the highest health, dealing magic damage and stunning them.",
+                "name": "Sleepy Trouble Bubble",
+                "tags": [
+                    {
+                        "bonus": [
+                            150,
+                            225,
+                            300
+                        ],
+                        "name": "Damage"
+                    },
+                    {
+                        "bonus": [
+                            2,
+                            2.5,
+                            5
+                        ],
+                        "name": "Stun duration"
+                    }
+                ]
+            },
+            "speed": 0.7,
+            "type": [
+                "Sorcerer"
+            ]
+        }
+    ]
+}
