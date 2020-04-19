@@ -21,6 +21,7 @@ include_directories(Includes)
 include_directories(Libraries)
 include_directories(Libraries/doctest/doctest)
 include_directories(Libraries/pybind11/include)
+include_directories(Libraries/json/single_include)
 
 # Compile options
 include(CMake/CompileOptions.cmake)
@@ -32,6 +33,8 @@ endif()
 
 # Overrides
 set(CMAKE_MACOSX_RPATH ON)
+
+set(RESOURCE_DIR ${PROJECT_SOURCE_DIR}/Resources)
 
 # Project modules
 add_subdirectory(Sources/TFAT)

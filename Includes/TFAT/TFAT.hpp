@@ -7,8 +7,11 @@
 #ifndef TFAT_HPP
 #define TFAT_HPP
 
-#include <TFAT/Piece/Piece.hpp>
+#include <TFAT/Champion/Champion.hpp>
+#include <TFAT/Champion/ChampionStat.hpp>
 #include <TFAT/TFAT.hpp>
+#include <TFAT/Utils/ChampionParser.hpp>
+#include <TFAT/Utils/JsonParser.hpp>
 #include <TFAT/Utils/Macros.hpp>
 
 #endif  // TFAT_HPP

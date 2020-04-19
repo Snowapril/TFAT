@@ -8,11 +8,20 @@
 #include "doctest.h"
 #undef NEAR
 
-#include <TFAT/Piece/Piece.hpp>
+#include <TFAT/Champion/Champion.hpp>
+#include <TFAT/Utils/ChampionParser.hpp>
 using namespace TFAT;
 
 TEST_CASE("Simple test")
 {
-    Piece piece;
+    Champion Champion;
     //!CHECK();
+}
+
+TEST_CASE("Json parsing test")
+{
+    ChampionParser parser;
+    bool result = parser.LoadJson(RESOURCE_DIR "champions.json");
+
+    CHECK(result == true);
 }

@@ -33,10 +33,11 @@ target_compile_options(${target}
     PRIVATE
     ${DEFAULT_COMPILE_OPTIONS}
 )
-#target_compile_definitions(${target}
-#    PRIVATE
-#    MAPS_DIR="${PROJECT_SOURCE_DIR}/Resources/Maps/"
-#)
+
+target_compile_definitions(${target}
+    PRIVATE
+    RESOURCE_DIR="${PROJECT_SOURCE_DIR}/Resources/"
+)
 
 # Link libraries
 target_link_libraries(${target}
