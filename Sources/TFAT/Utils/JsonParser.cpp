@@ -22,7 +22,8 @@ namespace TFAT {
     JsonParser::JsonParser(const std::string& path)
     {
         bool parseResult = LoadJson(path);
-        assert(parseResult);
+        if (parseResult)
+            abort();
     }
 
     JsonParser::~JsonParser()

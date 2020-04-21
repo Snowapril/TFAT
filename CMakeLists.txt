@@ -39,6 +39,7 @@ set(RESOURCE_DIR ${PROJECT_SOURCE_DIR}/Resources)
 # Project modules
 add_subdirectory(Sources/TFAT)
 add_subdirectory(Libraries/doctest)
+add_subdirectory(Libraries/nlohmann)
 add_subdirectory(Tests/UnitTests)
 
 # Code coverage - Debug only
