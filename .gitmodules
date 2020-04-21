@@ -7,6 +7,3 @@
 [submodule "Libraries/pytorch"]
 	path = Libraries/pytorch
 	url = https://github.com/pytorch/pytorch
-[submodule "Libraries/json"]
-	path = Libraries/json
-	url = https://github.com/nlohmann/json
