@@ -9,6 +9,7 @@
 
 #include <TFAT/Champion/Champion.hpp>
 #include <TFAT/Champion/ChampionStat.hpp>
+#include <TFAT/Enum/ChampionEnums.hpp>
 #include <TFAT/TFAT.hpp>
 #include <TFAT/Utils/ChampionParser.hpp>
 #include <TFAT/Utils/JsonParser.hpp>

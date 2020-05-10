@@ -32,7 +32,7 @@ namespace TFAT {
         ChampionParser(const std::string& path);
         
         //! Default destructor.
-        virtual ~ChampionParser();
+        ~ChampionParser();
 
         //! Get unique champion instance by it's name.
         ChampionPtr GetChampionByName(const std::string& name) const;
@@ -45,6 +45,7 @@ namespace TFAT {
     protected:
         void OnLoadJson(const nlohmann::json& json) override;
     private:
+        std::vector<ChampionPtr> _champions;
     };
 
     using ChampionParserPtr = std::shared_ptr<ChampionParser>;

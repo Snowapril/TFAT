@@ -29,7 +29,8 @@ namespace TFAT {
         //! Default destructor.
         virtual ~Champion();
 
-        
+        std::string name;
+        std::string id;
     protected:
     private:
     };
