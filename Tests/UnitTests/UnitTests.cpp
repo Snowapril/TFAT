@@ -4,24 +4,14 @@
 // personal capacity and am not conveying any rights to any intellectual
 // property of any third parties.
 
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "doctest.h"
-#undef NEAR
+#define DOCTEST_CONFIG_IMPLEMENT
+#include <doctest.h>
 
-#include <TFAT/Champion/Champion.hpp>
-#include <TFAT/Utils/ChampionParser.hpp>
-using namespace TFAT;
-
-TEST_CASE("Simple test")
+int main()
 {
-    Champion Champion;
-    //!CHECK();
-}
+    doctest::Context context;
 
-TEST_CASE("Json parsing test")
-{
-    ChampionParser parser;
-    bool result = parser.LoadJson(RESOURCE_DIR "champions.json");
+    const int res = context.run();
 
-    CHECK(result == true);
+    return res;
 }
