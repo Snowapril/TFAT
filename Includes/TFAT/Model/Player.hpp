@@ -11,6 +11,7 @@
 #define TFAT_PLAYER_H
 
 #include <memory>
+#include <array>
 
 namespace TFAT {
 
