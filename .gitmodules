@@ -4,6 +4,3 @@
 [submodule "Libraries/doctest"]
 	path = Libraries/doctest
 	url = https://github.com/onqtam/doctest
-[submodule "Libraries/pytorch"]
-	path = Libraries/pytorch
-	url = https://github.com/pytorch/pytorch
