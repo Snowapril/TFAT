@@ -1,5 +1,5 @@
 /*************************************************************************
-> File Name: Champion.h
+> File Name: Champion.hpp
 > Project Name: TFAT
 > This code is based on baba-is-auto that was created by Chris Ohk
 > References: https://github.com/utilforever/baba-is-auto
@@ -11,6 +11,7 @@
 #define TFAT_CHAMPION_H
 
 #include <memory>
+#include <TFAT/Champion/ChampionStat.hpp>
 
 namespace TFAT {
 
@@ -24,14 +25,13 @@ namespace TFAT {
     {
     public:
         //! Default constructor.
-        Champion();
+        Champion(const ChampionStat& stat);
 
         //! Default destructor.
         virtual ~Champion();
 
-        std::string name;
-        std::string id;
     protected:
+        ChampionStat _stat;
     private:
     };
 

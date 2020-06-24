@@ -8,6 +8,6 @@ TEST_CASE("Json parsing test")
 {
     ChampionParser parser;
     bool result = parser.LoadJson(RESOURCE_DIR "champions.json");
-
+    
     CHECK(result == true);
 }

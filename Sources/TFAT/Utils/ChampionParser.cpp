@@ -56,20 +56,15 @@ namespace TFAT {
 
         for (auto& championData : json)
         {
-            const std::string id = championData["id"].get<std::string>();
+            ChampionStat stat;
+            stat.name = championData["name"].is_null() ? "" : championData["name"].get<std::string>();
+            stat.armor = championData["armor"].get<float>();
+            stat.attack = championData["attack"].get<float>();
+            stat.dps = championData["dps"].get<float>();
+            stat.skillCost = championData["mana_cost"].get<int>();
+            stat.cost = championData["cost"].get<int>();
+            //const float health = championData["armor"].get<int>();
 
-            const std::string name = championData["name"].is_null()
-                                         ? ""
-                                         : championData["name"].get<std::string>();
-
-            ChampionPtr champion = std::make_shared<Champion>();
-            champion->id = id;
-            champion->name = name;
-            //Card* card = new Card();
-            //card->id = id;
-            //card->dbfID = dbfID;
-            //card->name = name;
-            //card->text = text;
 
             //card->gameTags = gameTags;
             //card->gameTags[GameTag::ATK] = attack;
@@ -88,8 +83,7 @@ namespace TFAT {
             //card->gameTags[GameTag::SPELLPOWER] = spellPower;
             //card->gameTags[GameTag::OVERLOAD] = overload;
 
-            //cards.emplace_back(card);
-            std::cout << name << std::endl;
+            _champions.push_back(std::make_shared<Champion>(stat));
         }
     }
 

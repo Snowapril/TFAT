@@ -12,7 +12,8 @@
 
 namespace TFAT {
 
-    Champion::Champion()
+    Champion::Champion(const ChampionStat& stat)
+        : _stat(stat)
     {
         //! Do nothing.
     }

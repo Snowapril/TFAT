@@ -30,7 +30,7 @@ namespace TFAT
     struct ChampionStat
     {
         std::string name;
-        int health[3];
+        float health[3];
         int skillCost;
         int cost;
         float attack;
