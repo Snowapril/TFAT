@@ -8,7 +8,8 @@
 #define TFAT_HPP
 
 #include <TFAT/Champion/Champion.hpp>
-#include <TFAT/Champion/ChampionStat.hpp>
+#include <TFAT/Champion/ChampionSkill.hpp>
+#include <TFAT/Champion/ChampionSkillTag.hpp>
 #include <TFAT/Enum/ChampionEnums.hpp>
 #include <TFAT/Game/Game.hpp>
 #include <TFAT/Game/GameTimer-Impl.hpp>
