@@ -1,20 +1,20 @@
 /*************************************************************************
-> File Name: Champion.hpp
+> File Name: ChampionSkill.hpp
 > Project Name: TFAT
 > This code is based on baba-is-auto that was created by Chris Ohk
 > References: https://github.com/utilforever/baba-is-auto
-> Purpose: Base class of the TFAT Champions.
-> Created Time: 2020/04/15
+> Purpose: Champion skill data wrapper.
+> Created Time: 2020/06/26
 > Copyright (c) 2020, Ji-Hong snowapril
 *************************************************************************/
-#ifndef TFAT_CHAMPION_H
-#define TFAT_CHAMPION_H
+#ifndef TFAT_CHAMPION_SKILL_H
+#define TFAT_CHAMPION_SKILL_H
 
 #include <TFAT/Enum/ChampionEnums.hpp>
-#include <TFAT/Champion/ChampionSkill.hpp>
+#include <TFAT/Champion/ChampionSkillTag.hpp>
 #include <memory>
 #include <vector>
-#include <unordered_map>
+#include <array>
 
 namespace TFAT {
 
@@ -24,26 +24,11 @@ namespace TFAT {
     //! This class contains several attribute(piece info, turn, etc..)
     //! and methods(attack, advance, etc..).
     //! 
-    class Champion
+    struct ChampionSkill final
     {
-    public:
-        //! Default constructor.
-        Champion();
-
-        //! Default destructor.
-        virtual ~Champion();
-
         std::string name;
-        std::unordered_map<ChampionStatTag, float> gameTag;
-        std::vector<ChampionOrigin> origins;
-        std::vector<ChampionType> types;
-        std::array<float, 3> health;
-        ChampionSkill skill;
-    protected:
-    private:
+        std::vector<ChampionSkillTag> tags;
     };
-
-    using ChampionPtr = std::shared_ptr<Champion>;
 }
 
 #endif

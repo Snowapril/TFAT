@@ -1,23 +1,25 @@
 /*************************************************************************
-> File Name: Champion.cpp
+> File Name: SkillTag.hpp
 > Project Name: TFAT
 > This code is based on baba-is-auto that was created by Chris Ohk
 > References: https://github.com/utilforever/baba-is-auto
-> Purpose: Base class of the TFAT Champions.
-> Created Time: 2020/04/15
+> Purpose: Champion skill tag data wrapper.
+> Created Time: 2020/06/26
 > Copyright (c) 2020, Ji-Hong snowapril
 *************************************************************************/
+#ifndef TFAT_CHAMPION_SKILL_TAG_H
+#define TFAT_CHAMPION_SKILL_TAG_H
 
-#include <TFAT/Champion/Champion.hpp>
+#include <TFAT/Enum/ChampionEnums.hpp>
+#include <array>
 
 namespace TFAT {
 
-    Champion::Champion()
+    struct ChampionSkillTag
     {
-        //! Do nothing.
-    }
-    Champion::~Champion()
-    {
-        //! Do nothing.
-    }
+        ChampionSkillType type;
+        std::array<float, 3> bonus;
+    };
 }
+
+#endif
