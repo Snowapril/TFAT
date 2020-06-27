@@ -4,6 +4,8 @@
 
 [![codecov](https://codecov.io/gh/Snowapril/TFAT/branch/master/graph/badge.svg)](https://codecov.io/gh/Snowapril/TFAT) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2b31a40d9ea24ae9949289360298404e)](https://www.codacy.com/manual/utilForever/baba-is-auto?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=utilForever/baba-is-auto&amp;utm_campaign=Badge_Grade) [![Total alerts](https://img.shields.io/lgtm/alerts/g/Snowapril/TFAT.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Snowapril/TFAT/alerts/) [![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/Snowapril/TFAT.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Snowapril/TFAT/context:cpp) [![CodeFactor](https://www.codefactor.io/repository/github/snowapril/tfat/badge)](https://www.codefactor.io/repository/github/snowapril/tfat)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Snowapril_TFAT&metric=alert_status)](https://sonarcloud.io/dashboard?id=Snowapril_TFAT)[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Snowapril_TFAT&metric=ncloc)](https://sonarcloud.io/dashboard?id=Snowapril_TFAT)[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Snowapril_TFAT&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=Snowapril_TFAT)[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Snowapril_TFAT&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=Snowapril_TFAT)[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Snowapril_TFAT&metric=security_rating)](https://sonarcloud.io/dashboard?id=Snowapril_TFAT)
+
 TFT simulator using C++ with some reinforecement learning.
 
 ## License
