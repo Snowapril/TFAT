@@ -93,15 +93,15 @@ namespace TFAT {
             {
                 ChampionSkillTag tempTag;
                 tempTag.type = StrToEnum<ChampionSkillType>(skillTagData["name"].get<std::string>());
-                //! tempTag.bonus = std::array<float, 3> {
-                //!     skillTagData["bonus"][0].get<float>(),
-                //!     skillTagData["bonus"][1].get<float>(),
-                //!     skillTagData["bonus"][2].get<float>(),
-                //! };          
+                tempTag.bonus = std::array<float, 3> {
+                    skillTagData["bonus"][0].get<float>(),
+                    skillTagData["bonus"][1].get<float>(),
+                    skillTagData["bonus"][2].get<float>(),
+                };          
                 skillTags.push_back(tempTag);      
             }
             skill.tags = skillTags;
-            
+                        
             ChampionPtr champion = std::make_shared<Champion>();
             champion->name = name;
             champion->health = health;

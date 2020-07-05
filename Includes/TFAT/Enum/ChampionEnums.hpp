@@ -10,6 +10,9 @@
 #ifndef TFAT_CHAMPION_ENUMS_HPP
 #define TFAT_CHAMPION_ENUMS_HPP
 #include <string>
+#include <algorithm>
+#include <cctype>
+#include <iterator>
 
 namespace TFAT {
 
@@ -84,9 +87,15 @@ namespace TFAT {
     template<> \
     inline ENUM StrToEnum(const std::string& str) \
     { \
+        std::string upperStr; \
+        std::transform(str.cbegin(), str.cend(), std::back_inserter(upperStr), [&str](unsigned char c) -> unsigned char { \
+            if (std::isalpha(c)) return static_cast<unsigned char>(std::toupper(c)); \
+            else if (c == ' ' || c == '-') return '_'; \
+            else return c; \
+        }); \
         for (int i = 0; i < static_cast<int>(ENUM::INVALID); ++i) \
         { \
-            if (str == STR_ARRAY[i]) \
+            if (upperStr == STR_ARRAY[i]) \
                 return static_cast<ENUM>(i); \
         } \
         return ENUM::INVALID; \
