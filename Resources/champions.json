@@ -122,6 +122,8 @@
                 },
                 {
                     "bonus": [
+                        2,
+                        2,
                         2
                     ],
                     "name": "Stun duration"
@@ -609,9 +611,9 @@
             "tags": [
                 {
                     "bonus": [
-                        "175%",
-                        "250%",
-                        "500%"
+                        175,
+                        250,
+                        500
                     ],
                     "name": "Percent of Attack Damage"
                 }
@@ -650,9 +652,9 @@
             "tags": [
                 {
                     "bonus": [
-                        "50%",
-                        "75%",
-                        "100%"
+                        50,
+                        75,
+                        100
                     ],
                     "name": "Attack speed"
                 }
@@ -730,9 +732,9 @@
             "tags": [
                 {
                     "bonus": [
-                        "244%",
-                        "344%",
-                        "4444%"
+                        244,
+                        344,
+                        4444
                     ],
                     "name": "Percent of Attack Damage"
                 }
@@ -770,9 +772,9 @@
             "tags": [
                 {
                     "bonus": [
-                        "60%",
-                        "75%",
-                        "100%"
+                        60,
+                        75,
+                        100
                     ],
                     "name": "Attack speed"
                 },
@@ -858,9 +860,9 @@
             "tags": [
                 {
                     "bonus": [
-                        "35%",
-                        "50%",
-                        "100%"
+                        35,
+                        50,
+                        100
                     ],
                     "name": "Attack speed"
                 },
@@ -1122,9 +1124,9 @@
             "tags": [
                 {
                     "bonus": [
-                        "5%",
-                        "10%",
-                        "25%"
+                        5,
+                        10,
+                        25
                     ],
                     "name": "Bonus damage"
                 },
@@ -1266,9 +1268,9 @@
                 },
                 {
                     "bonus": [
-                        "8%",
-                        "10%",
-                        "15%"
+                        8,
+                        10,
+                        15
                     ],
                     "name": "Heal per second"
                 }
@@ -1306,9 +1308,9 @@
             "tags": [
                 {
                     "bonus": [
-                        "70%",
-                        "90%",
-                        "999%"
+                        70,
+                        90,
+                        999
                     ],
                     "name": "Percent Health Damaged"
                 },
@@ -1318,7 +1320,7 @@
                         700,
                         1000
                     ],
-                    "name": "Upgrade: Shield Value"
+                    "name": "Upgrade Shield Value"
                 }
             ]
         },
@@ -1507,6 +1509,8 @@
                 },
                 {
                     "bonus": [
+                        1.5,
+                        1.5,
                         1.5
                     ],
                     "name": "Knockup duration"
@@ -1585,9 +1589,9 @@
             "tags": [
                 {
                     "bonus": [
-                        "250%",
-                        "325%",
-                        "450%"
+                        250,
+                        325,
+                        450
                     ],
                     "name": "Percent damage"
                 }
@@ -2033,14 +2037,16 @@
             "tags": [
                 {
                     "bonus": [
-                        "75%",
-                        "100%",
-                        "150%"
+                        75,
+                        100,
+                        150
                     ],
                     "name": "Attack speed bonus"
                 },
                 {
                     "bonus": [
+                        8,
+                        8,
                         8
                     ],
                     "name": "Duration"
