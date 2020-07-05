@@ -88,7 +88,7 @@ namespace TFAT {
     inline ENUM StrToEnum(const std::string& str) \
     { \
         std::string upperStr; \
-        std::transform(str.cbegin(), str.cend(), std::back_inserter(upperStr), [&str](unsigned char c) -> unsigned char { \
+        std::transform(str.cbegin(), str.cend(), std::back_inserter(upperStr), [](unsigned char c) -> unsigned char { \
             if (std::isalpha(c)) return static_cast<unsigned char>(std::toupper(c)); \
             else if (c == ' ' || c == '-') return '_'; \
             else return c; \
